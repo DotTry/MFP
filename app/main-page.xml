@@ -1,0 +1,22 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
+    <Page.actionBar>
+        <ActionBar title="In-App Purchase Sample" class="action-bar">
+            <ActionBar.items>
+                <ActionItem ios.position="right" text="Restore" tap="onRestoreTap"/>
+            </ActionBar.items>
+        </ActionBar>
+    </Page.actionBar>
+
+    <GridLayout>
+        <ListView items="{{ items }}" itemTap="onProductTap">
+            <ListView.itemTemplate>
+                <GridLayout rows="auto, auto" columns="*, auto" padding="5">
+                    <Label row="0" col="0" class="h2" text="{{ localizedTitle }}"/>
+                    <Label row="1" col="0" text="{{ localizedDescription }}" textWrap="true" color="#999999"/>
+                    <Label text="{{ priceFormatted }}" row="0" rowSpan="2" col="1" class="h1" style="margin-left: 5"/>
+                </GridLayout>
+            </ListView.itemTemplate>
+        </ListView>
+        <ActivityIndicator busy="{{ loading }}" />
+    </GridLayout>
+</Page>

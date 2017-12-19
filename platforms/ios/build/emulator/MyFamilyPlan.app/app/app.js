@@ -1,0 +1,15 @@
+"use strict";
+/*
+In NativeScript, the app.ts file is the entry point to your application.
+You can use this file to perform app-level initialization, but the primary
+purpose of the file is to pass control to the app’s first module.
+*/
+Object.defineProperty(exports, "__esModule", { value: true });
+require("./bundle-config");
+var app = require("application");
+var purchase = require("nativescript-purchase");
+purchase.init([
+    "org.nativescript.MyFamilyPlan.product2"
+]);
+app.start({ moduleName: 'main-page' });
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiYXBwLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQTs7OztFQUlFOztBQUVGLDJCQUF5QjtBQUN6QixpQ0FBbUM7QUFDbkMsZ0RBQWtEO0FBRWxELFFBQVEsQ0FBQyxJQUFJLENBQUM7SUFDVix3Q0FBd0M7Q0FDM0MsQ0FBQyxDQUFDO0FBRUgsR0FBRyxDQUFDLEtBQUssQ0FBQyxFQUFFLFVBQVUsRUFBRSxXQUFXLEVBQUUsQ0FBQyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbkluIE5hdGl2ZVNjcmlwdCwgdGhlIGFwcC50cyBmaWxlIGlzIHRoZSBlbnRyeSBwb2ludCB0byB5b3VyIGFwcGxpY2F0aW9uLlxuWW91IGNhbiB1c2UgdGhpcyBmaWxlIHRvIHBlcmZvcm0gYXBwLWxldmVsIGluaXRpYWxpemF0aW9uLCBidXQgdGhlIHByaW1hcnlcbnB1cnBvc2Ugb2YgdGhlIGZpbGUgaXMgdG8gcGFzcyBjb250cm9sIHRvIHRoZSBhcHDigJlzIGZpcnN0IG1vZHVsZS5cbiovXG5cbmltcG9ydCBcIi4vYnVuZGxlLWNvbmZpZ1wiO1xuaW1wb3J0ICogYXMgYXBwIGZyb20gJ2FwcGxpY2F0aW9uJztcbmltcG9ydCAqIGFzIHB1cmNoYXNlIGZyb20gXCJuYXRpdmVzY3JpcHQtcHVyY2hhc2VcIjtcblxucHVyY2hhc2UuaW5pdChbXG4gICAgXCJvcmcubmF0aXZlc2NyaXB0Lk15RmFtaWx5UGxhbi5wcm9kdWN0MlwiXG5dKTtcblxuYXBwLnN0YXJ0KHsgbW9kdWxlTmFtZTogJ21haW4tcGFnZScgfSk7XG4iXX0=

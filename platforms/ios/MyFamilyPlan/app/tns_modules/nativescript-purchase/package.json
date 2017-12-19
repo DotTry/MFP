@@ -1,0 +1,74 @@
+{
+  "_from": "nativescript-purchase",
+  "_id": "nativescript-purchase@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha1-N1WLnMaSLeU+CmwRnOp0nRxkmpc=",
+  "_location": "/nativescript-purchase",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nativescript-purchase",
+    "name": "nativescript-purchase",
+    "escapedName": "nativescript-purchase",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-purchase/-/nativescript-purchase-1.0.5.tgz",
+  "_shasum": "37558b9cc6922de53e0a6c119cea749d1c649a97",
+  "_spec": "nativescript-purchase",
+  "_where": "/Users/user/Documents/branchefforts/MyFamilyPlan",
+  "author": {
+    "name": "Peter Staev",
+    "email": "peter@tangrasoft.com"
+  },
+  "bugs": {
+    "url": "https://github.com/PeterStaev/nativescript-purchase/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Sven Ziegler",
+      "url": "https://github.com/svzi"
+    }
+  ],
+  "deprecated": false,
+  "description": "A NativeScript plugin for making in-app purchases",
+  "homepage": "https://github.com/PeterStaev/nativescript-purchase#readme",
+  "keywords": [
+    "NativeScript",
+    "iap",
+    "in-app purchase",
+    "in-app billing",
+    "vending",
+    "payment",
+    "subscription",
+    "tangra"
+  ],
+  "license": "Apache-2.0",
+  "main": "purchase",
+  "name": "nativescript-purchase",
+  "nativescript": {
+    "platforms": {
+      "ios": "2.3.0",
+      "android": "2.3.0"
+    },
+    "plugin": {
+      "nan": "true",
+      "pan": "true",
+      "core3": "true",
+      "category": "Utilities"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterStaev/nativescript-purchase.git"
+  },
+  "typings": "nativescript-purchase.d.ts",
+  "version": "1.0.5"
+}
